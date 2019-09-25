@@ -1,3 +1,7 @@
+Pierre Miroite
+ING4 OCRES TD4
+TP1 : CV Web
+
 # TP1
 
 A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
@@ -8,7 +12,7 @@ A lire impérativement avant de commencer quoi que ce soit, ce sont les règles 
 
 ## Instructions
 
-Créer un site CV **présentable** qui pourra être mis en ligne par vos soins. 
+Créer un site CV **présentable** qui pourra être mis en ligne par vos soins.
 
 Dasn un futur proche vous allez postuler pour des offres de stage ou bien votre premier job apres le diplôme. Le CV en ligne est un supplément du CV papier, il peut vous permettre de faire la différence. Il permet de montrer vos compétences à votre futur employeur.
 
