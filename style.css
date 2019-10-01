@@ -1,8 +1,3 @@
-.navbar
-{
-  position: sticky;
-}
-
 .body
 {
   margin: 0;
@@ -10,11 +5,25 @@
   font-family: sans-serif;
 }
 
+.navbar
+{
+  position: fixed;
+  background-color: black;
+}
+.navbar img
+{
+  width : 30px;
+}
+.nav-link
+{
+  color: white;
+}
+
 #firstPart
 {
-  height: 50vh;
+  height: 56vh;
   background: /*linear-gradient(rgba(0, 0, 0,0.1), rgba(0, 0, 0,0.1)),*/ url(img/couv_1.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -35,4 +44,9 @@
 {
   border-radius: 40%;
   width:300px;
+}
+
+.formation
+{
+  margin-left : 30px;
 }
