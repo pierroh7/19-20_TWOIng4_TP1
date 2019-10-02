@@ -8,7 +8,7 @@
 .navbar
 {
   position: fixed;
-  background-color: black;
+  background-color: #660000;
 }
 .navbar img
 {
@@ -22,7 +22,7 @@
 #firstPart
 {
   height: 56vh;
-  background: /*linear-gradient(rgba(0, 0, 0,0.1), rgba(0, 0, 0,0.1)),*/ url(img/couv_1.jpg);
+  background: linear-gradient(rgba(120, 0, 0,0.1), rgba(255, 0, 0,0.1)), url(img/couv_1.jpg);
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
@@ -46,7 +46,40 @@
   width:300px;
 }
 
-.formation
+.formation h2
 {
+  margin-top : 25px;
+  text-align : center;
+  font-weight : bold;
+}
+.formation ul
+{
+  padding-top: 10px;
   margin-left : 30px;
+  margin-right: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.chronologie
+{
+  list-style-type: none; /*Pour enlever les pastilles de liste*/
+  position: relative;
+}
+.chronologie:before
+{
+  content: '';
+  background: black;
+  position: absolute;
+  left: 20px;
+  width: 2.5px;
+  height: 90%;
+  z-index: 1;
+}
+.chronologie li
+{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  background: #ffe6e6;
 }
